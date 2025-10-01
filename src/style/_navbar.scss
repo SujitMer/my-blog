@@ -1,0 +1,32 @@
+// NavBar
+.navbar {
+    background: linear-gradient(to right, rgb(0, 255, 225), rgb(0, 174, 255), rgba(0, 183, 255), rgb(0, 0, 0));
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.navbar-brand {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    margin-top: 6px;
+    font-family: 'Lucida Sans Unicode';
+    border-top: 2px solid #00b7ff;
+    border-bottom: 2px solid rgb(0, 183, 255);
+}
+
+.nav-link {
+    margin-left: 1rem;
+    font-family: 'Lucida Sans Unicode';
+    font-size: 17px;
+}
+
+.searchBar {
+    width: 20rem;
+}
+
+//Toggle Button
+
+#toggleBtn {
+    margin-left: 3rem;
+}
