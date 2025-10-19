@@ -6,8 +6,10 @@ export default function BlogCards({ inputText }) {
 
     let eventHandler = async (val = inputText || "apple") => {
 
+        let MY_API = dd31c4ae54aa4370b50e9894e66d08fa;
+        
         let URL = `https://newsapi.org/v2/everything?q=${val}&from=2025-09-26&to=2025-09-26&
-                   sortBy=popularity&apiKey=dd31c4ae54aa4370b50e9894e66d08fa`;
+                   sortBy=popularity&apiKey=${MY_API}`;
 
         try {
             let res = await fetch(URL);
